@@ -1,0 +1,31 @@
+Q1> create TDate class having data member day ,month , year
+and following functions
+
+TDate();
+TDate(int day,int month,int year);
+AcceptDate();
+PrintDate_dd-mm-yyyy();    //Ex = 2-5-2022
+PrintDate_dd-month-yyyy(); //Ex = 2-May-2022
+bool ValidateDate();
+
+=====================================================================
+
+Q2: Write a class complex.
+Data member - real and imaginary  --- 7+j8
+add member function as Parameterless constructor , Parameterized constructor,
+ accept complex number and print complex number.
+
+======================================================================
+Q3 :Write a class of  cylinder using following members
+
+Data members:
+	height,radius,volume
+member function:
+cylinder()
+cylinder(height,radius)
+setHeight(int h)
+setRadius(int r)
+getHeight()
+getRadius()
+CalculateVolume();
+getVolume()

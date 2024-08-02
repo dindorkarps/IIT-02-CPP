@@ -1,4 +1,12 @@
-Q1> create TDate class having data member day ,month , year
+
+Q1: Menu driven code
+Write a 4 function calculator by using menu driven code
+by taking  choice from user for calculation
+(Use Enum , while loop , switch )
+
+======================================================================
+
+Q2> create TDate class having data member day ,month , year
 and following functions
 
 TDate();
@@ -10,12 +18,6 @@ bool ValidateDate();
 
 =====================================================================
 
-Q2: Write a class complex.
-Data member - real and imaginary  --- 7+j8
-add member function as Parameterless constructor , Parameterized constructor,
- accept complex number and print complex number.
-
-======================================================================
 Q3 :Write a class of  cylinder using following members
 
 Data members:

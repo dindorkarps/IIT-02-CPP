@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <list>
 using namespace std;
 
 class Person
@@ -80,5 +81,14 @@ int main1()
     for (int i = 0; i < personList.size(); i++)
         delete personList[i];
 
+//---------------------------------------------------
+    list<Person> personList1; 
+    Person p;
+    p.accept();
+    personList1.push_back(p);
+    for (list<Person>::iterator it = personList1.begin(); it != personList1.end(); it++)
+		it->display();
+
+
     return 0;
-}
+}+

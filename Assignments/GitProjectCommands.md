@@ -50,7 +50,7 @@ clone repo by all user
         > code . 
 > create file and write code in vscode
 >  git add .
-> git commit  -m "demo1 added"
+> git commit  -m "git ignore added"
 >git push -u origin main
 > git branch psd
 > git checkout psd 

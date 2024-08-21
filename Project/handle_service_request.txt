@@ -1,0 +1,24 @@
+steps to wight station.handle_service_request() implementation
+
+1. declared required locale variables
+	customer *cust;
+	vehicle *veh;
+	String cust_name;
+	int option;
+2. //clear the console screen by using system("cls");
+3. display all customer list
+4. take the customer name/mobile number from user
+5. Take current customer name and search in list old customer list
+6. If not present then show the message "Customer Not Registered." and return the function  
+7. If customer present in list then then return its address to process farther
+8. print all vehicle list and ask user to select one vehicle for servicing
+9. if customer has no vehicle registered then add new vehicle for that customer
+10. create object of service request class.
+11. pass customer name and selected vehicle number to service request constructor.
+12. process service request
+13. create bill class and pass service request object in constructor
+14. Print bill 
+15. customer has to pay bill amount
+16. calculate balance if any by subtracting total bill and paid amount and show it customer.
+17. add this bill in billList
+

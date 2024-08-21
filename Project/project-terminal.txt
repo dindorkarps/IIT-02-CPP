@@ -1,0 +1,389 @@
+PS D:\Internship\cpp\IITCPP> cd src
+PS D:\Internship\cpp\IITCPP\src> g++ oil.cpp part.cpp maintainance.cpp service.cpp servicerequest.cpp vehicle.cpp  customer.cpp bill.cpp menu.cpp menuoptions.cpp servicestation.cpp main.cpp
+menuoptions.cpp: In function 'void subMenuServiceRequestOptions(ServiceStation&)':
+menuoptions.cpp:44:44: warning: comparison between 'enum E_SubMenuServiceRequest' and 'enum E_Menu' [-Wenum-compare]
+   44 |  while ((choice = subMenuServiceRequest()) != E_Menu::EXIT)
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+PS D:\Internship\cpp\IITCPP\src> ./a.exe                                                                 
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 1
+*******************************************
+Enter name - rajesh
+Enter mobile - 9988
+Enter address - pune
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 2
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 1
+*******************************************
+Enter mobile number - 9988
+Customer Found - rajesh
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 1
+*******************************************
+Enter mobile number - 555
+Customer Not Found :(
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 1
+*******************************************
+Enter mobile number - 9988
+Customer Found - rajesh
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 2
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 3
+*******************************************
+*******************************************
+0. Go Back
+1. Select Vehicle
+2. Add new Vehicle
+Enter Your Choice - 2
+*******************************************
+Enter Vehicle Companysantro
+Enter Vehicle ModelMJ9876
+Enter Vehicle Number961
+PS D:\Internship\cpp\IITCPP\src> ./a.exe
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 1
+*******************************************
+Enter name - Rajesh
+Enter mobile - 9988
+Enter address - pune
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 2
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 3
+*******************************************
+Select Customer first
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 3
+*******************************************
+Select Customer first
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 1
+*******************************************
+Enter mobile number - 9988
+Customer Found - rajesh
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 3
+*******************************************
+*******************************************
+0. Go Back
+1. Select Vehicle
+2. Add new Vehicle
+Enter Your Choice - 2
+*******************************************
+Enter Vehicle Companykia
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 3
+*******************************************
+*******************************************
+0. Go Back
+1. Select Vehicle
+2. Add new Vehicle
+Enter Your Choice - 2
+*******************************************
+Enter Vehicle Companykia
+*******************************************
+Enter Vehicle Companykia
+Enter Vehicle Model8899
+Enter Vehicle Number7777
+PS D:\Internship\cpp\IITCPP\src> ./a.exe                                                                        
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 2
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 2
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+Enter Your Choice - 2
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 1
+*******************************************
+Enter mobile number - 9881736734
+Customer Found - pradnya
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 2
+*******************************************
+Company - kia
+Model - sonet
+number - 9802
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 3
+*******************************************
+*******************************************
+0. Go Back
+1. Select Vehicle
+2. Add new Vehicle
+Enter Your Choice - 1
+*******************************************
+Company - kia
+Model - sonet
+number - 9802
+Enter vehicle number - 9802
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 4
+*******************************************
+*******************************************
+0. Go Back
+1. Maintainance
+2. Repairing
+3. Oil Change / Add Additive
+Enter Your Choice - 1
+*******************************************
+Enter what work is done - seatbelt
+Enter the labour charges - 200
+*******************************************
+0. Go Back
+1. Maintainance
+2. Repairing
+3. Oil Change / Add Additive
+Enter Your Choice - 2
+*******************************************
+Enter part description - break
+Enter rate - 500
+Do you want to add more parts ?
+press 1 to add or any number to cancel - 2
+Enter what work is done - breakchange
+Enter the labour charges - 700
+*******************************************
+0. Go Back
+1. Maintainance
+2. Repairing
+3. Oil Change / Add Additive
+Enter Your Choice - 3
+*******************************************
+Enter the oil/Additive description - normal
+Enter price - 200
+*******************************************
+0. Go Back
+1. Maintainance
+2. Repairing
+3. Oil Change / Add Additive
+Enter Your Choice - 0
+*******************************************
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 5
+*******************************************
+**************Rohan Honda**************
+Mobile number - 9881736734              Vehicle Number - 9802
+--------------------------------------------------------
+Description - seatbelt
+Labourcharges - 200
+Description - breakchange
+Part description - break
+Part rate - 500
+Labourcharges - 700
+Description - normal
+Cost - 200
+--------------------------------------------------------
+BillAmount - 1600
+18% Tax - 288
+Total Bill - 1888
+Paid Amount - 0
+*******************************************
+0. Go Back
+1. Existing Customer
+2. Display Vehicle/s of the existing customer
+3. Choose/Input Vehicle
+4. Process Request
+5. Prepare and Display Bill
+6. Get Payment
+Enter Your Choice - 6
+*******************************************
+Bill amount to Pay - 1888
+Enter the amount paid by the customer - 1888
+Bill Paid ...
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 4
+*******************************************
+******************************
+Total Business -
+Total Billed Amount - 12744
+Total Paid Amount - 12683.6
+******************************
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice - 4
+*******************************************
+******************************
+Total Business -
+Total Billed Amount - 12744
+Total Paid Amount - 12683.6
+******************************
+*******************************************
+0. EXIT
+1. Add New Customer
+******************************
+Total Business -
+Total Billed Amount - 12744
+Total Paid Amount - 12683.6
+******************************
+*******************************************
+0. EXIT
+1. Add New Customer
+******************************
+*******************************************
+0. EXIT
+1. Add New Customer
+2. New Service Request
+3. Today's Business
+4. Total Business
+Enter Your Choice -
